@@ -1,5 +1,7 @@
 # 500px-json-rss-feed-api
 
+## Code and example
+
 Snippet of code to get your images from 500px. [Click here for a demo](https://orsifrancesco.github.io/500px-json-rss-feed-api/).
 
 ```js
@@ -25,7 +27,7 @@ fetchData('orsifrancesco'); // <!-- your username here!!!!
 
 ```
 
-XML response from 500px converted in JSON 
+## XML response from 500px converted in JSON
 
 ```json
 
@@ -37,7 +39,6 @@ XML response from 500px converted in JSON
     "img": "https://drscdn.500px.org/photo/201381977/q%3D50_h%3D450/v2?sig=3a43a3510603a53aa810cdeeb2fa159d06e2aa6c95778f822fe5b1139c147ea5",
     "epoch": 1488668808
   },
-    ...
   {
     "title": "Isabella",
     "link": "https://500px.com/photo/201380519/Isabella-by-Francesco-Orsi",
@@ -50,5 +51,7 @@ XML response from 500px converted in JSON
 ```
 
 If you need additional code for your UI rendering, everything is included in `index.html` file.
+
+## Bonus file PHP
 
 ..if you are looking for the same JSON result in PHP you can get the same code in `bonus.php` file.
