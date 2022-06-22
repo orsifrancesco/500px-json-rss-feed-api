@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #eee;
+	font-family: sans-serif;
 }
 
 /* #loading {
@@ -15,6 +16,38 @@ body {
 	background-color: #fff;
 	z-index: 1000;
 } */
+
+h3 {
+	font-weight: normal;
+	font-size: 18px;
+	padding: 0 10px;
+	color: #999;
+	margin-bottom: 10px;
+}
+
+h3 small {
+	font-size: 18px;
+}
+
+h3 a {
+	text-decoration: none;
+	color: #666;
+	transition: .9s;
+	font-weight: bold;
+}
+
+h3 a:hover {
+	color: tomato;
+}
+
+h3 a span {
+	color: tomato;
+	transition: .5s;
+}
+
+h3 a:hover span {
+	color: #666;
+}
 
 #loading.hide {
 	opacity: 0;

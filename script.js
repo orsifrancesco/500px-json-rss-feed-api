@@ -1,4 +1,4 @@
-const $inserHereYourUsername = 'orsifrancesco'; // <!-- your username here!!
+const $inserHereYourUsername = window?.location?.hash?.substring(1) || 'orsifrancesco'; // <!-- your username here!!
 
 function render(json) {
 

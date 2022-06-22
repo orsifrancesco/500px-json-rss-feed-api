@@ -3,6 +3,7 @@
 ## Code and example
 
 Snippet of code to get your images from 500px. [Click here for a demo](https://orsifrancesco.github.io/500px-json-rss-feed-api/).
+You can try it directly with your images from 500px [https://orsifrancesco.github.io/500px-json-rss-feed-api/#addingYour500pxUsernameHere](https://orsifrancesco.github.io/500px-json-rss-feed-api/#orsifrancesco).
 
 ```js
 
